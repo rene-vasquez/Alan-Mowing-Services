@@ -1,7 +1,10 @@
 * {
-    background-color: #3A4328;
     color: white;
     font-family: 'Comfortaa', cursive;
+}
+
+body {
+    background-color: #284d19;
 }
 
 .navbar {
@@ -16,10 +19,14 @@ h1 {
     display: flex;
     justify-content: center;
     width: 500px;
+    background-color: #00000000;
+    filter: drop-shadow(15px 10px 15px #000000);
 }
 
 .logo {
     height: 50px;
+    background-color: #00000000;
+    filter: drop-shadow(15px 10px 20px #000000);
 }
 
 .contact {
@@ -31,4 +38,89 @@ h1 {
 .text {
     height: 25px;
     padding-right: 10px;
+}
+
+.hero {
+    height: 700px;
+    margin-top: 20px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.349), rgba(0, 0, 0, 0.356)),
+    url("./Snapchat-164001752.jpg");
+    background-size: cover;
+    background-position:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slogan {
+    font-size: 70px;
+    background-color: #00000000;
+    width: 300px;
+    filter: drop-shadow(15px 10px 10px #000000);
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.grid section {
+    height: 600px;
+    width: 49.75%;
+    margin-top: 5px;
+    background-size: cover;
+    background-position:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.picText {
+    text-align: center;
+    width: 400px;
+    filter: drop-shadow(15px 10px 10px #000000);
+}
+
+.pic1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.205), rgba(0, 0, 0, 0.205)),
+    url("./Snapchat-1402155150.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pic2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.205), rgba(0, 0, 0, 0.205)),
+    url("./Snapchat-2038023443.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pic3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.205), rgba(0, 0, 0, 0.205)),
+    url("./Snapchat-864198131.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pic4 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.205), rgba(0, 0, 0, 0.205)),
+    url("./Snapchat-791224115.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Hover Actions*/
+
+.grid section:hover {
+    font-size: 32px;
+}
+
+.slogan:hover {
+    filter: drop-shadow(15px 10px 15px #000000);
 }
