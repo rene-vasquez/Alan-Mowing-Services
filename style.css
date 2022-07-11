@@ -12,7 +12,7 @@ body {
     justify-content: space-around;
     align-items:center;
     padding: 0px 20px 0px 20px;
-    border-bottom: 2px solid #6E7153
+    border-bottom: 2px solid #538509;
 }
 
 h1 {
@@ -30,13 +30,14 @@ h1 {
 }
 
 .contact {
+    font-size: 20px;
     display: flex;
     align-items: center;
     flex-direction: row;
 }
 
 .text {
-    height: 25px;
+    height: 15px;
     padding-right: 10px;
 }
 
@@ -115,6 +116,36 @@ h1 {
     align-items: center;
 }
 
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact-banner {
+    width: 100%;
+    padding-top: 15px;
+    border-top: 2px solid #538509;
+    font-size: 50px;
+}
+
+.info-banner {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.text, .email {
+    font-size: 150%;
+}
+
+.footer {
+    padding-top: 15px;
+    border-top: 2px solid #538509;
+    display: flex;
+    justify-content: center;
+}
+
 /* Hover Actions*/
 
 .grid section:hover {
@@ -122,5 +153,6 @@ h1 {
 }
 
 .slogan:hover {
+    font-size: 72px;
     filter: drop-shadow(15px 10px 15px #000000);
 }
