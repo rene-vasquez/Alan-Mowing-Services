@@ -132,6 +132,7 @@ h1 {
 .info-banner {
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
@@ -156,3 +157,16 @@ h1 {
     font-size: 72px;
     filter: drop-shadow(15px 10px 15px #000000);
 }
+
+/* Media Queries*/
+@media screen and (max-width: 900px) {
+    .grid section {
+        height: 400px;
+        width: 100%;
+    }
+
+    .text, .email {
+        
+    }
+}
+
