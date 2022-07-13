@@ -159,14 +159,13 @@ h1 {
 }
 
 /* Media Queries*/
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1080px) {
     .grid section {
         height: 400px;
         width: 100%;
     }
-
     .text, .email {
-        
+        height: 100px;
     }
 }
 
